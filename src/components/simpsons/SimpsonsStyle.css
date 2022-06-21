@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.each {
+    background: #f6f697;
+    margin: 5px auto;
+    border-radius: 15px;
+    width: 90%;
+    border: 2px solid red;
+    padding: 3px;
+    display: flex;
+}
+.info{
+    width: 70%;
+    margin-left: 40px;
+}

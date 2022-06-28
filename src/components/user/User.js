@@ -1,11 +1,13 @@
 import React from "react";
 
-export default function User(props) {
-    let {user_item} = props;
+import './User.css'
+
+export default function User({user_item}) {
+
 return (
 <div>
 
-    <div>
+    <div className={'us'}>
         {user_item.id} . {user_item.name} - {user_item.email}.
     </div>
 

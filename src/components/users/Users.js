@@ -1,5 +1,9 @@
 import React, {useEffect, useState} from 'react';
+
 import User from "../user/User";
+
+import './Users.css'
+
 
 const Users = () => {
 
